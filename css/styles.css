@@ -548,7 +548,9 @@ address li + li {
   align-items: flex-end;
   margin-left: auto;
 }
-
+.subscr-title {
+  display: block;
+}
 .subscr-email-field {
   height: 50px;
   width: 358px;
