@@ -287,10 +287,7 @@
                             </svg>
                         </a>
                     </li>
-        
-
                 </ul>
-
             </div> 
         </section>
     </main>
@@ -307,7 +304,7 @@
                 </address>
                 </div>
             <div class="join">
-                <p>Приєднуйтесь</p>
+                <p class="subscr-title">Приєднуйтесь</p>
                 <ul class="footer-socials">
                     <li>
                         <a class="social-btn footer-social-btn" href="" rel="noopener noreferrer">
@@ -339,9 +336,22 @@
                     </li>
                 
                 </ul></div>
+            
+            <div class="subscription">
+                <form class="subscr-form">
+                    <label>
+                        <p class="subscr-title">Підпишіться на розсилку</p>
+                        <input type="email" class="subscr-email-field" placeholder="E-mail" name="subscr_user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </label>
+                </form>
+                <button class="subscribe-btn button" type="submit">Підписатися
+                    <svg class="subscr-icon">
+                        <use href="./images/icons.svg#icon-send" width="24" height="24"></use>
+                    </svg>
+                </button>
+            </div>
             </div>
         </div>
-        
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -388,7 +398,7 @@
                     <svg class="custom-checkbox">
                         <use class="custom-checkbox-icon" href="./images/icons.svg#form-check" ></use>
                     </svg>
-                    <span class="user-consent">Погоджуюся з розсилкою та приймаю</span> <a class="agreement" href="#">Умови договору</a></label>
+                    <span class="user-consent">Погоджуюся з розсилкою та приймаю &nbsp; </span> <a class="agreement" href="#">Умови договору</a></label>
                     
                 <button type="submit" class="modal-submit-btn button">Відправити</button>
             </form>
