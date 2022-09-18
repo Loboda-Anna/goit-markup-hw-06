@@ -755,6 +755,7 @@ address li + li {
 .modal-form-check:focus + .custom-checkbox {
   box-shadow: 0 0 0 2px rgb(9, 95, 191);
 }
+
 .modal-form-check:checked + .custom-checkbox {
   box-shadow: none;
 }
